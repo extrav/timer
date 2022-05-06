@@ -17,6 +17,40 @@ wasm-bindgen-test = "0.3.18"
 
 [dependencies]
 seed = "0.8.0"
+enclose ="1.1.8"
+wasm-bindgen = "0.2.80"
+js-sys = "0.3.57"
+
+
+[dependencies.web-sys]
+version = "0.3.5"
+features = [
+  'console',
+  'CssStyleDeclaration',
+  'Document',
+  'DomStringMap',
+  'DomTokenList',
+  'Element',
+  'Event',
+  'EventTarget',
+  'HtmlBodyElement',
+  'HtmlElement',
+  'HtmlInputElement',
+  'KeyboardEvent',
+  'Location',
+  'Node',
+  'NodeList',
+  'Storage',
+  'Window',
+]
+
+
+
+
+
+
+
+
 
 [profile.release]
 lto = true
